@@ -1,0 +1,20 @@
+@import "//at.alicdn.com/t/font_2014287_gna8airg76k.css";
+[class^="yuanyue-"], [class*=" yuanyue-"]  {
+  font-family: "yuanyue" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$--color-primary: $color-primary;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.el-menu {
+  border: 0;
+  background-color: transparent;
+}
